@@ -4,15 +4,15 @@
 
 // ===== TICKER =====
 const tickerMessages = [
-  "📣 COMMUNIQUÉ OFFICIEL — Le Président Marcheur Blanc inaugure ce matin le 4e rond-point de la capitale",
-  "⚠️ ALERTE : des manchots génétiquement modifiés ont été repérés à la frontière — restez calmes",
-  "🍞 La grève des boulangers entre dans son 3e jour — le Président appelle à « manger froid avec patriotisme »",
-  "✅ Le Ministère de la Vérité confirme que tout va bien",
-  "🦫 Les élections législatives auront lieu dès que les castors seront prêts à voter",
-  "🧪 La dissolution de l'Assemblée est « en cours de nettoyage chimique »",
-  "📊 Taux de participation aux dernières élections : 100,01 % — record historique",
-  "🦢 Le Président a été photographié en train de marcher vers l'avenir — cliché disponible en format A0",
-  "📺 9e allocution télévisée de la semaine — la 10e est prévue pour annoncer la 11e",
+  " COMMUNIQUÉ OFFICIEL — Le Président Marcheur Blanc inaugure ce matin le 4e rond-point de la capitale",
+  " ALERTE : des manchots génétiquement modifiés ont été repérés à la frontière — restez calmes",
+  " La grève des boulangers entre dans son 3e jour — le Président appelle à « manger froid avec patriotisme »",
+  " Le Ministère de la Vérité confirme que tout va bien",
+  " Les élections législatives auront lieu dès que les castors seront prêts à voter",
+  " La dissolution de l'Assemblée est « en cours de nettoyage chimique »",
+  " Taux de participation aux dernières élections : 100,01 % — record historique",
+  " Le Président a été photographié en train de marcher vers l'avenir — cliché disponible en format A0",
+  " 9e allocution télévisée de la semaine — la 10e est prévue pour annoncer la 11e",
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
