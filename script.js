@@ -27,15 +27,15 @@ document.addEventListener("DOMContentLoaded", () => {
     overlay.innerHTML = `
       <div id="cookie-modal" role="dialog" aria-modal="true" aria-labelledby="cookie-titre" aria-describedby="cookie-texte">
         <span class="cookie-badge">Décret numérique n° 2026-014</span>
-        <h2 id="cookie-titre">Consentement (obligatoire) aux cookies 🍪</h2>
+        <h2 id="cookie-titre">Consentement aux cookies </h2>
         <p id="cookie-texte">Conformément à la Loi sur la Transparence Numérique Populaire, ce site dépose des cookies afin d'assurer votre sécurité, votre confort, et accessoirement une surveillance légère et parfaitement bienveillante de votre navigation.</p>
-        <p class="cookie-petit">Tout refus sera transmis au Ministère de la Vérité pour analyse et pourrait affecter votre cote de civisme numérique.</p>
+        <p class="cookie-petit">Tout refus sera transmis au Ministère de la communication interne pour analyse et pourrait affecter votre cote de civisme numérique.</p>
         <div class="cookie-boutons">
           <button type="button" id="cookie-accepter" class="btn-cookie-accepter">Accepter les cookies</button>
           <button type="button" id="cookie-refuser" class="btn-cookie-refuser">Non, j'aime pas les cookies</button>
           <span class="cookie-placeholder"></span>
         </div>
-        <p class="cookie-taquin">Psst… un clic sur « Non » vaut vraiment le détour. (Bon courage.)</p>
+        <p class="cookie-taquin">Psst… un clic sur « Non » vaut vraiment le détour</p>
       </div>
     `;
     document.body.appendChild(overlay);
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btnRefuser.addEventListener("click", () => {
       localStorage.setItem(CLE_CONSENTEMENT, "refus-requalifie");
       modal.querySelector("#cookie-texte").textContent =
-        "⚠️ Tentative de refus détectée. Le Ministère de la Vérité a requalifié votre choix en acceptation enthousiaste. Merci pour votre coopération citoyenne.";
+        "Tentative de refus détectée. La ministre la communication interne a requalifié votre choix en acceptation enthousiaste. Merci pour votre coopération citoyenne.";
       modal.querySelector(".cookie-petit").style.display = "none";
       modal.querySelector(".cookie-taquin").style.display = "none";
       btnRefuser.style.display = "none";
